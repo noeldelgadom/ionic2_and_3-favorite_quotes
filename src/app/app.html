@@ -4,7 +4,7 @@
       <ion-title>Menu</ion-title>
     </ion-toolbar>
   </ion-header>
-  <ion-content #nav>
+  <ion-content>
     <ion-list>
       <button ion-item (click)="onLoad(tabsPage)">
         <ion-icon name="quote" item-left></ion-icon>
@@ -18,4 +18,4 @@
   </ion-content>
 </ion-menu>
 
-<ion-nav [root]="tabsPage"></ion-nav>
+<ion-nav [root]="tabsPage" #nav></ion-nav>
