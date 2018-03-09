@@ -1,4 +1,4 @@
-import { QuotesService } from './../../service/quotes';
+import { QuotesService } from '../../services/quotes';
 import { Quote } from './../../data/quote.interface';
 import { NavParams, AlertController } from 'ionic-angular';
 import { Component, OnInit } from '@angular/core';

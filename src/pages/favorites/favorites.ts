@@ -1,5 +1,5 @@
 import { QuotePage } from './../quote/quote';
-import { QuotesService } from './../../service/quotes';
+import { QuotesService } from '../../services/quotes';
 import { Component } from '@angular/core';
 import { Quote } from '../../data/quote.interface';
 import { ModalController } from 'ionic-angular';

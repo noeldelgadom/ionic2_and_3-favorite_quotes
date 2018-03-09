@@ -1,4 +1,4 @@
-import { QuotesService } from './../service/quotes';
+import { QuotesService } from '../services/quotes';
 import { TabsPage } from './../pages/tabs/tabs';
 import { LibraryPage } from './../pages/library/library';
 import { QuotePage } from './../pages/quote/quote';
